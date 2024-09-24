@@ -14,7 +14,6 @@ function App() {
   const [includeSpecial, setIncludeSpecial] = useState(true);
   const [copiedMessage, setCopiedMessage] = useState('');
   
-  // Función para manejar el cambio de contraseña
   const handlePasswordChange = (e) => {
     const newPassword = e.target.value;
     setPassword(newPassword);
